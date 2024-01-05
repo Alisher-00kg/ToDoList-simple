@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 600;
+  font-size: 25px;
+}
+:root {
+  --main-color: rgb(3, 92, 201);
+}
+body {
+  background-color: lightskyblue;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  border: none;
+  cursor: pointer;
+  color: white;
+  width: 115px;
+  height: 60px;
+  background-color: rgb(255, 25, 68);
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 1;
+}
+button:hover {
+  background-color: white;
+  color: rgb(255, 25, 68);
+  transform: scale(1.2);
+}
+.container {
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 35px;
+  width: 1000px;
+  height: auto;
+}
+
+#h1 {
+  color: var(--main-color);
+  padding: 30px;
+  font-size: 40px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+#input {
+  width: 600px;
+  height: 60px;
+  border: 3px solid var(--main-color);
+  margin-bottom: 20px;
+  padding-left: 15px;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+#input::placeholder {
+  opacity: 0.5;
+}
+#button-add {
+  background-color: rgb(226, 20, 108);
+  border-radius: 25px;
+  width: 110px;
+  height: 60px;
+  margin-left: 15px;
+  transition: 1;
+}
+#button-add:hover {
+  background-color: var(--main-color);
+  color: white;
+  transform: scale(1.2);
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+#ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.li_tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 820px;
+  height: 100px;
+  border: none;
+  gap: 20px;
+  background-color: rgb(22, 143, 233);
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: 1;
+}
+.li_tag:hover {
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+.checkInput {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  font-size: xx-large;
+}
